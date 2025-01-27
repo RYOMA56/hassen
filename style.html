@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>طموح المملكة</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- الهيدر -->
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="logo.png" alt="طموح المملكة" class="logo">
+        </div>
+        <h1>طموح المملكة 2030</h1>
+        <p>مستقبل مشرق لأرض العز</p>
+    </header>
+
+    <!-- تسجيل الدخول -->
+    <section id="login-section" class="login-section">
+        <div class="login-container">
+            <form class="login-form">
+                <h2>تسجيل الدخول</h2>
+                <input type="text" id="username" placeholder="أدخل اسم المستخدم" required>
+                <input type="password" id="password" placeholder="أدخل كلمة المرور" required>
+                <button type="submit" id="login-button">تسجيل الدخول</button>
+            </form>
+            <p id="login-message"></p>
+        </div>
+    </section>
+
+    <!-- الأقسام الرئيسية -->
+    <section id="main-sections">
+        <div class="section" onclick="window.location.href='section1.html'">
+            <h3>الفقرة 1: النمو الاقتصادي</h3>
+            <p>تقدم سريع في الاقتصاد الوطني نحو المستقبل.</p>
+            <img src="section1.jpg" alt="النمو الاقتصادي" class="section-img">
+        </div>
+
+        <div class="section" onclick="window.location.href='section2.html'">
+            <h3>الفقرة 2: التعليم</h3>
+            <p>تحقيق مستوى تعليمي عالمي للجيل القادم.</p>
+            <img src="section2.jpg" alt="التعليم" class="section-img">
+        </div>
+
+        <div class="section" onclick="window.location.href='section3.html'">
+            <h3>الفقرة 3: المجتمع</h3>
+            <p>دعم المجتمع المحلي وتعزيز التلاحم الاجتماعي.</p>
+            <img src="section3.jpg" alt="المجتمع" class="section-img">
+        </div>
+
+        <div class="section" onclick="window.location.href='section4.html'">
+            <h3>الفقرة 4: البيئة</h3>
+            <p>دعم الاستدامة البيئية والحفاظ على الطبيعة.</p>
+            <img src="section4.jpg" alt="البيئة" class="section-img">
+        </div>
+
+        <div class="section" onclick="window.location.href='section5.html'">
+            <h3>الفقرة 5: التكنولوجيا</h3>
+            <p>اعتماد التكنولوجيا لتحقيق التطور في مختلف المجالات.</p>
+            <img src="section5.jpg" alt="التكنولوجيا" class="section-img">
+        </div>
+    </section>
+
+    <!-- الخدمات -->
+    <section id="services">
+        <h2>خدماتنا</h2>
+        <div class="service">
+            <h3>خدمة 1</h3>
+            <p>وصف الخدمة الأولى مع تفاصيل رائعة.</p>
+            <button onclick="location.href='service1.html'">اعرف المزيد</button>
+        </div>
+
+        <div class="service">
+            <h3>خدمة 2</h3>
+            <p>وصف الخدمة الثانية مع تفاصيل رائعة.</p>
+            <button onclick="location.href='service2.html'">اعرف المزيد</button>
+        </div>
+
+        <div class="service">
+            <h3>خدمة 3</h3>
+            <p>وصف الخدمة الثالثة مع تفاصيل رائعة.</p>
+            <button onclick="location.href='service3.html'">اعرف المزيد</button>
+        </div>
+    </section>
+
+    <!-- شهادات -->
+    <section id="testimonials">
+        <h2>آراء العملاء</h2>
+        <div class="testimonial">
+            <p>"خدمة رائعة جعلت تجربتي أفضل بكثير."</p>
+            <p>- عميل 1</p>
+        </div>
+
+        <div class="testimonial">
+            <p>"موقع رائع للغاية ويقدم حلولاً متميزة."</p>
+            <p>- عميل 2</p>
+        </div>
+
+        <div class="testimonial">
+            <p>"شكرًا على الخدمات المتميزة والدعم المتواصل."</p>
+            <p>- عميل 3</p>
+        </div>
+    </section>
+
+    <!-- الأخبار -->
+    <section id="news">
+        <h2>أخبار طموح المملكة</h2>
+        <article class="news-item">
+            <h3>عنوان الخبر 1</h3>
+            <p>محتوى الخبر الأول مع تفاصيل.</p>
+            <button onclick="location.href='news1.html'">اقرأ المزيد</button>
+        </article>
+
+        <article class="news-item">
+            <h3>عنوان الخبر 2</h3>
+            <p>محتوى الخبر الثاني مع تفاصيل.</p>
+            <button onclick="location.href='news2.html'">اقرأ المزيد</button>
+        </article>
+
+        <article class="news-item">
+            <h3>عنوان الخبر 3</h3>
+            <p>محتوى الخبر الثالث مع تفاصيل.</p>
+            <button onclick="location.href='news3.html'">اقرأ المزيد</button>
+        </article>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">عن الموقع</a>
+            <a href="contact.html">اتصل بنا</a>
+            <a href="privacy.html">سياسة الخصوصية</a>
+        </div>
+        <p>حقوق الملكية: طموح المملكة © 2030</p>
+        <p>موقع بواسطة حسين طالب النسي</p>
+    </footer>
+
+    <!-- نافذة منبثقة -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>نافذة منبثقة</h2>
+            <p>هذه هي نافذة منبثقة بسيطة لإظهار التفاعل.</p>
+        </div>
+    </div>
+
+    <!-- سكربتات -->
+    <script src="script.js"></script>
+</body>
+</html>
